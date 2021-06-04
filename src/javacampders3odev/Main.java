@@ -27,6 +27,15 @@ public class Main {
 		
 		studentManager.addMultipleUser(students);
 		
+		Instructor instructor1 = new Instructor();
+		instructor1.setId(1);
+		instructor1.setName("Engin demirog");
+		instructor1.setInstructorCourses("Java");
+		instructor1.setEmail("engindemirog@gmail.com");
+		
+		InstructorManager instructorManager=new InstructorManager();
+		instructorManager.instructorCourse(instructor1);
+		
 		
 
 	}
