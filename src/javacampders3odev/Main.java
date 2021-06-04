@@ -16,11 +16,13 @@ public class Main {
 		student2.setCourse("C#");
 		student2.setEmail("csharpcamp@gmail.com");
 		
-		Student[] students= {student1,student2};
+		
 		
 		StudentManager studentManager=new StudentManager();
 		studentManager.addUser(student1);
 		studentManager.addUser(student2);
+		
+		Student[] students= {student1,student2};
 		
 		studentManager.addCourse(student1);
 		studentManager.addCourse(student2);
